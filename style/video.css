@@ -1,12 +1,27 @@
 .video-container{
-
+    margin-left: 140px;
 }
 
 .video-grid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
 }
 
 .thumbnail{
-    width: 300px;
+    width: 465px;
+    border-radius: 12px;
+}
+
+.video-profile-picture-section{
+
+}
+
+.video-profile-picture{
+    width: 38px;
+    border-radius: 20px;
 }
