@@ -1,0 +1,12 @@
+.video-container{
+
+}
+
+.video-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.thumbnail{
+    width: 300px;
+}
