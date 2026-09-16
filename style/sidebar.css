@@ -40,7 +40,7 @@ aside{
     margin-left: 8px;
 }
 
-.sidebar-item{
+.sidebar-item, .you-sidebar-item{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,4 +68,18 @@ aside{
 .show-more{
     margin-left: 32px;
     margin-top: 3px;
+}
+
+.you{
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.second-arrow{
+    margin-left: 17px;
+    margin-top: 8px;
+}
+
+.you-sidebar-item{
+    margin-bottom: 18px;
 }
