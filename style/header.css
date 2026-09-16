@@ -70,7 +70,60 @@ header{
 
 .right-section{
     width: 500px;
-    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.make{
+    width: 110px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 16px;
+}
+
+.add{
+    font-size: 30px;
+}
+
+.opprett{
+    font-size: 14px;
+    margin-left: -5px;
+}
+
+.notification{
+    position: relative;
+    margin-right: 27px;
+}
+
+.bell-icon{
+    width: 28px;
+}
+
+.notification-amount{
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    background-color: rgb(222, 0, 0);
+    font-size: 12px;
+    width: 22px;
+    height: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.profile-picture{
+    width: 32px;
+    border-radius: 20px;
+    margin-right: 23px;
 }
 
 .hamburger{
