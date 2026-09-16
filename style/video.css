@@ -50,7 +50,7 @@
 .time-duration{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.53);
-    z-index: 0.9;
+    z-index: 1;
     bottom: 10px;
     right: 10px;
     width: 37px;
